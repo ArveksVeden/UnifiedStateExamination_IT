@@ -1,14 +1,14 @@
-#  решение для обычного типа задачи: 1 куча, неограниченное количество камней
 from functools import lru_cache
 
 
 def moves(h):
-    return h+2, h*2
+    return h+1, h*2, h*3
 
 
 @lru_cache(None)
 def game(h):
-    if h >= 25: return 'W'
+    if h >= 36 and h <= 60: return 'W'
+    if h > 60: return 'P1' #  добавляем заплатку для условия (ограниченное количество камней)
     if any(game(m) == 'W' for m in moves(h)): return 'P1'
     if all(game(m) == 'P1' for m in moves(h)): return 'B1'
     if any(game(m) == 'B1' for m in moves(h)): return 'P2'
