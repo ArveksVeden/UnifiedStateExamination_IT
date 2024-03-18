@@ -1,0 +1,21 @@
+task 1: 34
+task 2: xwzy
+task 3: 18920
+task 4: 8
+task 5: 61
+task 6: 577 **
+task 7: 288
+task 8: 8640
+task 9: 4
+task 10: 5
+task 11: 2025 **
+task 12: 177
+task 13: 5
+task 14: 4651779499
+task 15: 106
+task 16: 8096
+task 17: 247 41
+task 18: 588 210
+task 19: 67
+task 20: 63 66
+task 21: 62

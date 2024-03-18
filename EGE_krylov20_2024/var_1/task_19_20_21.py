@@ -1,5 +1,6 @@
 from functools import lru_cache
 
+
 def moves(h):
     return [h + 1, h + 4, h * 3]
 
